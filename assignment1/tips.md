@@ -64,7 +64,7 @@ you may want to generate your own test cases to debug.
 "Test Failed: Command '...' timed out after 5 seconds"
 
 These two different results both represent your program times out (some of our test
-cases are large). If this happens, try to improve the efficiency of your code. 
+cases are large). If this happens, try to improve the efficiency of your code. For example, try to convert input strings into integers, string operations are inefficient comparing to operations with integers.
 
 Although very rare, 
 it may also happen that your code runs within the required time
