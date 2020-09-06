@@ -1,6 +1,6 @@
 # Due Date
 
-9/5/2020, 11:59PM EDT.
+Monday, 9/7/2020, 11:59PM EDT.
 
 # Problem Description
 

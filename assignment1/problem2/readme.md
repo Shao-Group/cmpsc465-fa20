@@ -1,3 +1,7 @@
+# Due Date
+
+Monday, 9/7/2020, 11:59PM EDT.
+
 # Problem Description
 
 Implement merge-sort to sort an array.
