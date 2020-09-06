@@ -10,8 +10,7 @@ the `n` integers in the array. All numbers are separated by space.
 You can assume that 0 <= n <= 10000, and that each number in the arrarys
 are in the range of [-2147483648, 2147483647]. 
 
-Your code should read the input from standard input (e.g. 
-using functions `input()/raw_input()` in Python and `cin/scanf` in C++).
+Your code should read the input from standard input (e.g. using functions `input()/raw_input()` in Python and `cin/scanf` in C++).
 
 # Output
 
