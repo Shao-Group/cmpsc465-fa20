@@ -1,4 +1,4 @@
-# Some Tips for Programming Assignments
+# Tips for Programming Assignments
 
 ## Read the problem description carefully
 
@@ -33,24 +33,23 @@ Your code should write the output to standard output (e.g. using
 Make sure you follow the commands provided in the problem description to test
 your code. Submit your code after you pass all given test cases.
 
-## Submission
+## Submission and possible outcomes
 
-For now you may submit your code multiple times.
-The possible responses you may get and how you could revise your code are given below.
+Some possible responses your code may get and how you could revise your code are given below.
 
 
 ### Autograder failed
 
-"The autograder failed to execute correctly. Contact your course staff for help
+Error message: *The autograder failed to execute correctly. Contact your course staff for help
 in debugging this issue. Make sure to include a link to this page so that they
-can help you most effectively."
+can help you most effectively.*
 
 In most cases, this is because the name or the path of your submitted file is
 not correct.
 
-### Wrong Answer
+### Wrong answer
 
-"Test Failed: Output did not match expected." 
+Error message: *Test Failed: Output did not match expected.*
 
 If your code fail on all test cases, likely you haven't passed the given test cases.
 If a subset of test cases fail, then your code haven't considered all situations;
@@ -58,23 +57,29 @@ you may want to generate your own test cases to debug.
 
 ### Time out
 
-"Test Failed: [Errno 32] Broken pipe"
+Error message: *Test Failed: [Errno 32] Broken pipe*
 
-"Test Failed: Command '...' timed out after 5 seconds"
+Error message: *Test Failed: Command '...' timed out after 5 seconds*
 
-These two different results both represent your program times out (some of our test
-cases are large). If this happens, try to improve the efficiency of your code. For example, trying to convert input strings into integers; string operations are inefficient comparing to operations with integers. There is a sample below:
+These two different results both represent your program times out (some of our
+test cases are large). If this happens, try to improve the efficiency
+of your code. 
 
-```
-if Array1[pointer1] >= Array2[pointer2]: 
-	Output_array.append(Array2[pointer2]) 
-```
-Use an integer array to save the results is more efficient than using string. And there is a bad sample using string to save the results.
-
+For example, trying to convert input strings into integers,
+as string operations are inefficient comparing to operations with integers. 
+Following is a piece of code that is very inefficient:
 ```
 if Array1[pointer1] >= Array2[pointer2]: 
 	Output_string = Output_string + ' ' + str(Array2[pointer2])
 ```
+Instead, the following example is the right way to do it:
+```
+if Array1[pointer1] >= Array2[pointer2]: 
+	Output_array.append(Array2[pointer2]) 
+```
+
+
 Although very rare, 
 it may also happen that your code runs within the required time
 but you get a time-out error. You can try to rerun the autograder or resubmit.
+
