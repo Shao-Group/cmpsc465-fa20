@@ -64,8 +64,18 @@ you may want to generate your own test cases to debug.
 "Test Failed: Command '...' timed out after 5 seconds"
 
 These two different results both represent your program times out (some of our test
-cases are large). If this happens, try to improve the efficiency of your code. For example, try to convert input strings into integers, string operations are inefficient comparing to operations with integers.
+cases are large). If this happens, try to improve the efficiency of your code. For example, try to convert input strings into integers, string operations are inefficient comparing to operations with integers. There is a sample below:
 
+```
+if Array1[pointer1] >= Array2[pointer2]: 
+	Output_array.append(Array2[pointer2]) 
+```
+Use an integer array to save the results is more efficient than using string. And there is a bad sample using string to save the results.
+
+```
+if Array1[pointer1] >= Array2[pointer2]: 
+	Output_string = Output_string + ' ' + str(Array2[pointer2])
+```
 Although very rare, 
 it may also happen that your code runs within the required time
 but you get a time-out error. You can try to rerun the autograder or resubmit.
