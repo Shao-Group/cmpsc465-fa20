@@ -4,7 +4,7 @@ Given a set of lines, each line is represented as `y = a * x + b`. Calculate the
 
 # Input
 
-There n + 1 lines, the first line gives only one number `n`, the size of the set. And the each line below two floating numbers `a` and `b` separated by space which representing a line in the plane.
+There n + 1 lines, the first line gives only one number `n`, the size of the set. Each of the following lines contains two floating numbers `a` and `b` separated by space which represent a line as `y = a * x + b`.
 
 You can assume that 0 <= n <= 1000, and that each floating numbers
 are in the range of [-100.0, 100.0]. 
