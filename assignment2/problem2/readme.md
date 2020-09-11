@@ -1,10 +1,10 @@
 # Problem Description
 
-Given a set of lines, each line is represented as 'y = a * x + b'. Calculate the number of lines in the upper-envelop and the number lines in the lower-envelop.
+Given a set of lines, each line is represented as `y = a * x + b`. Calculate the number of lines in the upper-envelop and the number lines in the lower-envelop.
 
 # Input
 
-There n + 1 lines, the first line gives only one number `n`, the size of the set. And the each line below two floating numbers 'a' and 'b' separated by space which representing a line in the plane.
+There n + 1 lines, the first line gives only one number `n`, the size of the set. And the each line below two floating numbers `a` and `b` separated by space which representing a line in the plane.
 
 You can assume that 0 <= n <= 1000, and that each floating numbers
 are in the range of [-100.0, 100.0]. 
