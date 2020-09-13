@@ -7,7 +7,7 @@ Given an array A with n distinct integers, design an algorithm to count the numb
 Two lines, the first line gives only one number `n`, the number of integers in the array. And the second line gives `n` numbers which are
 the `n` integers in the array. All numbers are separated by space.
 
-You can assume that 0 <= n <= 10000, and that each number in the arrarys
+You can assume that 0 <= n <= 50000, and that each number in the arrarys
 are in the range of [-2147483648, 2147483647]. 
 
 Your code should read the input from standard input (e.g. 
