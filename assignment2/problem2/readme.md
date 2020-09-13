@@ -1,6 +1,7 @@
 # Problem Description
 
-Given a set of lines, each line is represented as `y = a * x + b`. Calculate the number of lines in the upper-envelop and the number lines in the lower-envelop.
+Given a set of lines, each line is represented as `y = a * x + b`. Calculate the number of lines in the upper-envelop and the number lines in the lower-envelop. 
+(There no three lines no 3 lines goes through the same point. And for any three lines, they can't be all parallel to each other; only two of them at most can be parallel to each other.)
 
 # Input
 
