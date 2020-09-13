@@ -1,11 +1,14 @@
 # Problem Description
 
-Given a set of lines, each line is represented as `y = a * x + b`. Calculate the number of lines in the upper-envelop and the number lines in the lower-envelop. 
-(There no three lines no 3 lines goes through the same point. And for any three lines, they can't be all parallel to each other; only two of them at most can be parallel to each other.)
+Given a set of lines, each line is represented as `y = a * x + b`. Calculate
+the number of lines in the upper-envelop and the number lines in the
+lower-envelop.  (You may assume that there is no three lines going through the
+same point. And for any three lines, they can't be in all parallel to each
+other, but it's possible that two lines are parallel to each other.)
 
 # Input
 
-There n + 1 lines, the first line gives only one number `n`, the size of the set. Each of the following lines contains two floating numbers `a` and `b` separated by space which represent a line as `y = a * x + b`.
+There are n + 1 lines, the first line gives only one number `n`, the number of lines. Each of the following lines contains two floating numbers `a` and `b` separated by space which represent a line as `y = a * x + b`.
 
 You can assume that 0 <= n <= 1000, and that each floating numbers
 are in the range of [-100.0, 100.0]. 
@@ -22,7 +25,7 @@ Your code should write the output to standard output (e.g. using functions `prin
 
 # Requirement
 
-Your algorithm should run in O(nlogn) time. You are not allowed to call any in-built sort function.
+Your algorithm should run in O(nlogn) time. 
 
 Time limtation: 5 seconds.
 
@@ -37,6 +40,7 @@ Now only accept C++ and Python2/Python3 code, g++ version 7.5.0 and Python versi
 # Examples and Testing
 
 Some examples (e.g., input-x.txt and output-x.txt, x = 1, 2) are provided. 
+A figure corresponding input-1 can be found in this repo too.
 For Python code, try the following to test your code
 ```
 python ./solution.py < input-x.txt > my-output-x.txt
