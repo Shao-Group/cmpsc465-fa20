@@ -61,6 +61,10 @@ fc my-output-x.txt output-x.txt
 If you want to upload a single file, make sure the file is named as `solution.py` (for Python) or `solution.cpp` (for C++).
 If you submit via GitHub, make sure your file is located in directory `assignment2/problem1/solution.py` (for Python) or `assignment2/problem1/solution.cpp` (for C++).
 
+# Related Material
+
+Refer to Chapter 5.3, Algorithm Design [KT].
+
 # Hints
 
 Reuse the code you write for assignment 1.
