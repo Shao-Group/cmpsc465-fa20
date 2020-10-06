@@ -1,6 +1,6 @@
 # Problem Description
 
-Given a directed graph G = (V,E) with edge length l(e) > 0 for any e in E  and a source vertex s, use Dijkstra’s algorithm to calculate distance(s,v) for all of the vertices v in V. 
+Given a directed graph G = (V,E) with edge length l(e) > 0 for any e in E, and a source vertex s. Use Dijkstra’s algorithm to calculate distance(s,v) for all of the vertices v in V. 
 (You can implement your own priority queue or use the build-in function for C++/Python)
 
 # Input
