@@ -6,7 +6,7 @@ Given an undirected graph G = (V,E) with edge length l(e) > 0 for any e in E. Us
 # Input
 
 The graph has `n` vertices and `m` edges.
-There are m + 1 lines, the first line gives two numbers `n`,`m` describing the number of vertices, the number of edges. Each of the following lines contains three integers `a`, `b` and `c`, meaning there is an edge (a,b) belong to E and the length of the edge is c. All the numbers in a line are separated by space. (`1 <= a,b <= n`) There could be multiple edges between two vertices.
+There are m + 1 lines, the first line gives two numbers `n`,`m` describing the number of vertices, the number of edges. Each of the following lines contains three integers `a`, `b` and `c`, meaning there is an edge (a,b) belong to E and the length of the edge is c. All the numbers in a line are separated by space. There could be multiple edges between two vertices. (`1 <= a,b <= n`) 
 
 
 You can assume that 1 <= n <= 1000, 1 <= m <= 2000, and the length of edge is in the range of [1, 1000]. 

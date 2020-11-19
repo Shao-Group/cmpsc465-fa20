@@ -8,7 +8,9 @@ Given n jobs, job i starts from S_i, finishes at T_i, and has the weight V_i. Tw
 There are n + 1 lines, the first line gives only one number `n`, the number of jobs. Each of the following lines gives three intergers S_i, T_i, V_i separated by space.
 
 1 <= S_i < T_i <= 10000
+
 1 <= V_i <= 10000
+
 1 <= n <= 1000
 
 Your code should read the input from standard input (e.g. 
@@ -16,7 +18,7 @@ using functions `input()/raw_input()` in Python and `cin/scanf` in C++).
 
 # Output
 
-One number in a line, the weight of the maximum weight compatible job subset.
+One number in a line, the total weight of the maximum weight compatible job subset.
 
 Your code should write the output to standard output (e.g. using functions `print` in Python and `cout/printf` in C++).
 
