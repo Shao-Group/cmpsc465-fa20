@@ -1,7 +1,7 @@
 
 # Problem Description
 
-Given n jobs, job i starts from S_i, finishes at T_i, and has the weight V_i. Two jobs are compatible if they don't overlap.  Goal: find maximum weight subset of mutually compatible jobs. Design an algorithm to find maximum weight subset of mutually compatible jobs. (Job i and job j are compatible if T_i == S_j)
+Given n jobs, job i starts from S_i, finishes at T_i, and has the weight V_i. Two jobs are compatible if they don't overlap. Design an algorithm to find maximum weight subset of mutually compatible jobs. (Job i and job j are compatible if T_i == S_j)
 
 # Input
 
