@@ -11,6 +11,8 @@ There are m + 1 lines, the first line gives two numbesr `n` and `m`, `n` is the 
 
 1 <= m <= 300
 
+1 <= a,b <= n
+
 1 <= c <= 1000
 
 Your code should read the input from standard input (e.g. 
