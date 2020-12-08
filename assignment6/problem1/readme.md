@@ -1,11 +1,13 @@
 
 # Problem Description
 
-Give a directed graph G = (V,E), find the maximum network flow from `s` to `t`.
+Give a directed graph G = (V,E), find the maximum network flow from `s` to `t`. 
 
 # Input
 
-There are m + 1 lines, the first line gives two numbesr `n` and `m`, `n` is the number of vertices, `m` is the number of edges. Each of the following lines gives three intergers a, b, c separated by space which means there is an edge from a to b with capacity c. The source vertex `s` is always 1, and the sink vertex `t` is n.
+There are m + 1 lines, the first line gives two numbers `n` and `m`, `n` is the number of vertices, `m` is the number of edges. 
+Each of the following lines gives three intergers a, b, c separated by space which means there is an edge from a to b with capacity c. There could be multiple edges between two vertices. (1 <= a,b <= n)
+The source vertex `s` is always 1, and the sink vertex `t` is n.
 
 1 <= n <= 100
 
