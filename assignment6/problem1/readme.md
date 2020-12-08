@@ -22,7 +22,7 @@ using functions `input()/raw_input()` in Python and `cin/scanf` in C++).
 
 # Output
 
-One number in a line, the maximum netfork flow from s to t.
+One number in a line, value of the maximum netfork flow from s to t.
 
 Your code should write the output to standard output (e.g. using functions `print` in Python and `cout/printf` in C++).
 
